@@ -1,40 +1,14 @@
 <script setup lang="ts">
-
+import Card from "./components/Card.vue";
 </script>
 
 <template>
-  <div class="welcome">
-    <div>--&nbsp;Welcome&nbsp;To&nbsp;--</div>
-    <div>
-      <img style="height: 5rem; border-radius: 50%;" src="https://images.drshw.tech/images/notes/标准头像.jpg" alt="">
-      DrSHW's&nbspLabotory
-    </div>
-  </div>
-  <div class="cards">
-    
-  </div>
+  <router-view />
 </template>
 
 <style lang="scss">
 // 背景动态变色
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-.welcome {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-  align-items: center;
-  font-size: 5rem;
-  color: transparent;
-  text-shadow:
-    0px 0px 1px rgba(255, 255, 255, .9),
-    0px 4px 4px rgba(0, 0, 0, .05);
-  letter-spacing: .2rem;
-  margin-top: 2vh;
-}
-
 :root {
   font-size: 15px;
 }
@@ -61,7 +35,7 @@ body {
     60vmax -30vmax,
     10vmax 10vmax,
     -30vmax -10vmax,
-    20vmax 20vmax;
+    40vmax 40vmax;
   background-repeat: no-repeat;
   animation: 10s movement linear infinite;
   // 禁用滚动条
@@ -76,8 +50,7 @@ body::after {
   height: 100%;
   top: 0;
   left: 0;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+
 }
 
 @keyframes movement {
