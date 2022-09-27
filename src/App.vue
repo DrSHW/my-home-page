@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import Card from "./components/Card.vue";
+import { useRouter } from 'vue-router';
+const router = useRouter();
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Card from "./components/Card.vue";
 <style lang="scss">
 // 背景动态变色
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 :root {
   font-size: 15px;
 }
