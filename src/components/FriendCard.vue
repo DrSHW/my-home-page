@@ -49,7 +49,7 @@ const redirect = () => {
 }
 
 @media (max-width: 768px) {
-    .container {
+.container {
     position: relative;
     width: 25vh;
     height: 32vh;
@@ -95,7 +95,7 @@ const redirect = () => {
         margin-top: 2px;
         border-radius: 16px;        
         display: flex;
-        height: 60%;
+        height: 55%;
         justify-content: center;
         align-items: center;
     }
@@ -114,8 +114,9 @@ const redirect = () => {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 5vh;
         font-size: 1rem;
-        padding: 0 3vh;
+        padding: 0 2vh;
         margin: 1vh 0;
     }
 }

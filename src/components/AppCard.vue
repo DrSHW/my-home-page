@@ -49,7 +49,7 @@ const props = defineProps({
 		font-size: 2.2vh;
 	}
 	p {
-	margin-top: 1.5rem;
+	margin-top: 0.8rem;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-bottom: 0;

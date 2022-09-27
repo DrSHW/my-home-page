@@ -44,6 +44,7 @@ const router = useRouter();
     }
     .item {
         width: 45%;
+        height: 35vh;
     }
 }
 @media (min-width: 768px) {
@@ -61,6 +62,7 @@ const router = useRouter();
     }
     .item {
         width: 25%;
+        height: 35vh;
     }
 }
 
