@@ -97,6 +97,7 @@ const router = useRouter();
     padding: 0;
     
     .item {
+        cursor: pointer;
         margin-top: 2vh;
         height: 20vh;
         width: 20vw;

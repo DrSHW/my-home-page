@@ -24,6 +24,9 @@ const router = useRouter();
         <Card class="item" avatar_url="https://images.drshw.tech/images/notes/dustella.jpg"
             href="https://dustella.net" name="Dustella"
             description="喜欢睡大觉的前端&运维魔法师" />
+        <Card class="item" avatar_url="https://images.drshw.tech/images/notes/QQ图片20220927195913.jpg"
+            href="https://qingwu.top/" name="瑾知"
+            description="瑾知同学" />
     </div>
 
 </template>
