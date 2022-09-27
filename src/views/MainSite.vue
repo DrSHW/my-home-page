@@ -19,7 +19,7 @@ const router = useRouter();
         <Card class="item" href="https://docs.drshw.tech/main/introduction" title="Library"
             body="DrSHW的图书馆，存放笔记、教程和一些小项目。" />
         <Card class="item" href="https://storage.drshw.tech/" title="Dungeon" body="DrSHW的地下室，云盘而已。其中会包含一些常用的软件。" />
-        <Card class="item" href="https://astro.build/themes/" title="Github" body="DrSHW的Github。" />
+        <Card class="item" href="https://github.com/DrSHW/" title="Github" body="DrSHW的Github。" />
         <Card class="item" @click="router.push('/links')" title="Friends" body="友链。" />
     </ul>
 </template>
