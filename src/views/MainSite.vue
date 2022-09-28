@@ -7,9 +7,9 @@ const router = useRouter();
 <template>
     <div class="welcome">
         <div>--&nbsp;Welcome&nbsp;To&nbsp;--</div>
-        <div>
-            <img class="avatar" src="https://images.drshw.tech/images/notes/标准头像.jpg" alt="">
-            DrSHW's&nbspLabotory
+        <div class="next">
+            <div><img class="avatar" src="https://images.drshw.tech/images/notes/标准头像.jpg" alt="" /></div>
+            <div>&nbsp;DrSHW's&nbspLabotory</div>
         </div>
     </div>
     <div class="description">
@@ -43,8 +43,8 @@ const router = useRouter();
         padding: 0;
 
         .item {
-            height: 22vmax;
-            width: 18vmax;
+            height: 22vh;
+            width: 40vw;
         }
     }
 
@@ -62,6 +62,13 @@ const router = useRouter();
             0px 4px 4px rgba(0, 0, 0, .05);
         letter-spacing: .2rem;
         margin-top: 2vh;
+        .next {
+            margin-top: 1vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         .avatar {
             height: 2rem;
@@ -119,6 +126,10 @@ const router = useRouter();
         0px 4px 4px rgba(0, 0, 0, .05);
     letter-spacing: .2rem;
     margin-top: 2vh;
+    .next {
+        display: flex;
+        flex-direction: row;
+    }
     .avatar {
         height: 5rem;
         border-radius: 50%;

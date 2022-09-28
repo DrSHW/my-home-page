@@ -107,7 +107,7 @@ const redirect = () => {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 1vh;
     }
     .description {

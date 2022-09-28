@@ -40,12 +40,13 @@ const router = useRouter();
 
     .card-area {
         width: 100%;
-        gap: 4.9%;
+        gap: 5%;
     }
 
     .item {
-        width: 45%;
-        height: 35vh;
+        width: 42vw;
+        height: 30vh;
+        margin-top: 3vh;
     }
 }
 
@@ -108,7 +109,7 @@ const router = useRouter();
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
 .item {
