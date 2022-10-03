@@ -16,8 +16,8 @@ const router = useRouter();
         天天摸鱼的前端&爬虫，偶尔开展一些奇妙的实验。
     </div>
     <ul role="list" class="link-card-grid">
-        <Card class="item" href="https://docs.drshw.tech/main/introduction" title="Library"
-            body="DrSHW的图书馆，存放笔记、教程和一些小项目。" />
+        <Card class="item" href="https://docs.drshw.tech/main/introduction" title="Bookshelf"
+            body="DrSHW的书架，存放笔记、教程和一些小项目。" />
         <Card class="item" href="https://storage.drshw.tech/" title="Dungeon" body="DrSHW的地下室，云盘而已。其中会包含一些常用的软件。" />
         <Card class="item" href="https://github.com/DrSHW/" title="Github" body="DrSHW的Github。" />
         <Card class="item" @click="router.push('/links')" title="Friends" body="友链。" />
